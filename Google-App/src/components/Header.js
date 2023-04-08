@@ -1,12 +1,18 @@
-import Item from "./Menu";
+import Menu from "./Menu";
+import Icon from "./Icon";
+import Photo from "./Photo";
+// import Icon from "./Icon";
+import "../styles/header.css";
+import "../styles/photo.css"
+
 const Header = () => {
     return (
       <div className="full-header">
         <div className="right-menu-items">
-          <Item name = {'Gmail'}/> 
-          <Item name={'Images'}/>
-          <Item name={'Icon'}/>
-          <Item name={'Photo'} />
+          <Menu name = {'Gmail'}/> 
+          <Menu name={'Images'}/>
+          <Icon/>
+          <Photo/>
         </div>
       </div>
     );
