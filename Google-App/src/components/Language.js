@@ -1,6 +1,5 @@
-export default function Language(props){
-    const url = `https://www.google.com/search?q=${props.name}`;
+export default function Language(props){;
     return (
-        <a href={url}>{props.name}</a>
+        <div>{props.name}</div>
     )
 }

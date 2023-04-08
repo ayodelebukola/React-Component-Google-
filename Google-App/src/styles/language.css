@@ -1,8 +1,9 @@
 .language-link {
-    font-size: 14px;
-    text-decoration: none;
-    /* gap: 10px; */
-    /* display: flex; */
-    /* flex-direction: row; */
-  }
-  
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  text-decoration: none;
+  gap: 8px;
+  cursor: pointer;
+  color: #8AB4F8;
+};

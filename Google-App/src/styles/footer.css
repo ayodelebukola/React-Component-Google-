@@ -1,0 +1,31 @@
+.whole-footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+}
+.country{
+    font-size: 15px;
+    color: #999da2;
+    padding: 0px 20px;
+    
+}
+
+.buttom-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    border-top: 0.5px solid #999da2;
+}
+
+.start, .middle, .end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #999da2;
+    cursor: pointer;
+    gap: 15px;
+}
+

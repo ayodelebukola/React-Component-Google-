@@ -1,21 +1,24 @@
 import Buttom from "./Buttom.js";
+import "../styles/footer.css"
 
 const Footer = () => {
     return (
-        <div>
-            <p>Nigeria</p>
+        <div className="whole-footer">
+            <div className="top-section">
+            <p className="country">Nigeria</p>
+            </div>
 
-            <div>
-                <div>
+            <div className="buttom-section">
+                <div className="start">
                 <Buttom others={"About"}/>
                 <Buttom others={"Advertising"}/>
                 <Buttom others={"Business"}/>
                 <Buttom others={"How Search Works"}/>
                 </div>
 
-                <p>Carbon neutral since 2007</p>
+                <p className="middle">Carbon neutral since 2007</p>
 
-                <div>
+                <div className="end">
                     <Buttom others={"Privacy"}/>
                     <Buttom others={"Terms"}/>
                     <Buttom others={"Settings"}/>

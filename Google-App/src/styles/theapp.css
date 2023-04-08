@@ -1,5 +1,9 @@
 .whole-page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     background-color: #202124;
+    justify-content: space-between;
     color: #bdc1c6;
     font-size: 20px;
     font-family: sans-serif;
